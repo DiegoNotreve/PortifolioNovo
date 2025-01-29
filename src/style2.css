@@ -217,4 +217,18 @@ footer.social {
     border-radius: 20px;
   }
  
-  
+
+
+  @media screen and (max-width: 768px) {
+    footer .botoes-redes ul {
+      margin-top: 20px;
+  }
+}
+
+  @media screen and (max-width: 425px) {
+    footer .botoes-redes ul {
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+    
+  }

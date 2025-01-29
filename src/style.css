@@ -587,7 +587,7 @@ border: 2px solid transparent;
 
 /* Responsividade */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1020px) {
   .menu-desktop {
     display: none;
   }
@@ -665,5 +665,118 @@ h2.projeto1 {
 
 
 }
+
+@media screen and (max-width: 768px) {
+
+  h1.titulo1 {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .container-habilidade {
+    padding: 34px;
+    height: auto;
+  }
+
+  .container-habilidade p {
+    margin-bottom: 20px;
+  }
+
+}
+
+@media screen and (max-width: 425px) {
+
+  h1.titulo1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+
+  .texto-habilidade {
+    font-size: 40px;
+  }
+
+  .texto-projeto {
+    font-size: 40px;
+  }
+
+  h3.descricao {
+    font-size: 20px;
+  }
+
+  section.sobre {
+    height: auto; 
+  
+  }
+
+  .case-sobre {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .descricao-sobre {
+    text-align:center;
+  }
+
+  .case-sobre p {
+    padding: 20px;
+    display: flex;
+    justify-items: stretch;
+  }
+
+  .img-sobre {
+    display: flex;
+    justify-content: center;
+  }
+
+h2.web {
+  font-size: 25px;
+}
+
+
+.container-habilidade{
+  height: auto;
+}
+.container-habilidade p {
+  font-size: 15px;
+  text-align: center;
+
+}
+
+.icones i {
+  font-size: 35px;
+}
+
+
+.descricao-projeto {
+  margin-top: 60px;
+  height: auto;
+}
+
+.slide-box.primeiro .descricao-projeto {
+margin-top: 120px;
+}
+
+.descricao-projeto p {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  
+}
+
+.nav-manual, .nav-auto{
+  margin-top: 140%;
+}
+
+.social .texto-habilidade {
+  font-size: 35px;
+}
+
+
+}
+  
 
 
