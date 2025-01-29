@@ -587,7 +587,7 @@ border: 2px solid transparent;
 
 /* Responsividade */
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 768px) {
   .menu-desktop {
     display: none;
   }
