@@ -1,0 +1,9 @@
+header :  sobre - contato - projetos - skills
+
+section - sobre
+section - skills
+section - skills extras
+section - projetos
+section - rede social
+
+social - insta, github, linkedin, email, whatsapp
