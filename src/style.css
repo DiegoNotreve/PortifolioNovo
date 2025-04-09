@@ -587,7 +587,7 @@ border: 2px solid transparent;
 
 /* Responsividade */
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1024px) {
   .menu-desktop {
     display: none;
   }
@@ -650,11 +650,11 @@ section.slider .img-desktop{
 
 
 h2.projeto1 {
-  margin-top: 70px;
+  margin-top: 30px;
 }
 
 .nav-manual, .nav-auto{
-  margin-top: 80%;
+  margin-top: 70%;
 }
 
 .nav-manual .manual-btn:hover{
@@ -680,6 +680,10 @@ h2.projeto1 {
 
   .container-habilidade p {
     margin-bottom: 20px;
+  }
+
+  .nav-manual, .nav-auto{
+    margin-top: 80%;
   }
 
 }
